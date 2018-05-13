@@ -1,0 +1,142 @@
+body 
+{
+ background: url(Images/chipBkgd.jpg), url(Images/lotusLogoColored.png);
+ background-size: cover, 100%;
+}
+
+#headerArea
+{
+ position: absolute;
+ top: 0;
+ left: 0;
+ height: 10%;
+ width: 100%;
+ background-color: #045ae5;
+ border-bottom: 1% solid black;
+}
+
+
+#headerArea  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+#headerArea  li {
+    float: left;
+}
+
+#headerArea  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+#headerArea li a:hover {
+    background-color: #111111;
+}
+
+#settingsButton
+{
+ position: fixed;
+ left: 90%; 
+}
+
+#mainArea
+{
+ position: absolute;
+ top: 15%;
+ left: 5%;
+ height: 80%;
+ width: 90%;
+ background-color: rgba(250, 250, 250, 0.8);
+ /*background-image: url("lotusLogoColored.png");
+ background-repeat: no-repeat;
+ background-size: contain;
+ background-position: center; 
+ */
+}
+
+#gameSelectMenu
+{
+ position: absolute;
+ top: 15%;
+ left: 3%;
+ height: 80%;
+ width: 10%;
+ background-color: rgba(250, 250, 250, 0.8);
+}
+
+#levelSelectMenu
+{
+ position: absolute;
+ top: 15%;
+ left: 16%;
+ height: 80%;
+ width: 10%;
+ background-color: rgba(250, 250, 250, 0.8);	
+}
+
+.selectButton 
+{
+    background-color: #aaaaff;
+    border: none;
+    color: black;
+    padding: 3px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+	clear: both;
+	float: left;
+	width: 100%;
+	text-align: left;
+}
+
+.selectButton:hover 
+{
+ color: white; 
+ background-color: grey;
+}
+
+#gameArea
+{
+ position: absolute;
+ top: 15%;
+ left: 30%;
+ height: 80%;
+ width: 65%;
+ background-color: rgba(250, 250, 250, 0.8);	
+}
+
+#gameCanvas
+{
+ position: absolute;
+ top: 15%;
+ left: 5%;
+}
+
+
+ul
+{
+	
+}
+
+li
+{
+	
+}
+
+p
+{
+ font-size: 1.4em;	
+}
+
+h1
+{
+ text-align: center;	
+}
