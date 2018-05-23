@@ -1,2 +1,2 @@
 # MysticWarriors
-Game
+ A side-scrolling platform video game.
